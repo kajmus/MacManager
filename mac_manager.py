@@ -368,7 +368,7 @@ def main():
             print("Mac addresses saved to history!")
             input("press anything to go back: ")
             os.system("clear")
-            # do testu bo nie wiem czy tu jest błąd z wychoidzeniem z petli
+
 
         elif choice == "q":
             exit(0)
@@ -376,13 +376,6 @@ def main():
             print("Invalid input!")
 
     
-    #menu
-    #opcja wpisywania odrazu maca + opcja zapisu
-    #opcja wyswietlenia gistori
-    #ocja wyboru maca z histori
-    #pokaz moj adres mac
-    #zapis moj adres mac do histori
-
 if __name__ == "__main__":
     setup_v = setup()
     if setup_v == False:
@@ -397,7 +390,3 @@ if __name__ == "__main__":
             print("No network interfaces found.")
             exit(1)
         main()        
-
-
-
-# update mac addres form history nie dizała wywyala dużo błędów 
