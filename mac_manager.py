@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 import platform
 import time
@@ -165,7 +166,6 @@ def main():
         print("6. save current mac addresses to history")
         print("q. exit")
         choice = input("Choose number 1-6 or q to exit: ")
-        # +może opcja stworzenia nowego interfesju?
         # podzielić to na funkcje screenM() screen1() itp bo będą błędy związane z nazwami funkcji
         if choice == "1":
             while True:
@@ -247,10 +247,7 @@ def main():
                 else:
                     print("Invalid input!")
 
-            #wybierz mac adres z histori i wybierz na który interfejs ustawić ten nowy adres
-            #może jeszcze opcja zapisu aktualnych danych do historii
         elif choice == "3":
-            #wybierz pozyjce w histori którą chcesz zmienić
             while True:
                 os.system("clear")
                 print("Choose mac address to update:")
